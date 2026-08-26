@@ -49,6 +49,9 @@ class StudyAgent:
     def motivate(self):
         return "Small, consistent progress leads to big results!"
 
+    def show_goal(self):
+        return "My goal is to help you practice Python consistently."
+
     def respond(self, command):
         command = command.lower().strip()
 
@@ -61,7 +64,9 @@ class StudyAgent:
         elif command == "help":
             return "Commands: plan, complete, progress, motivate, help, quit"
         elif command == "motivate":
-            return self.motivate()           
+            return self.motivate()   
+        elif command == "goal":
+            return self.show_goal()        
         else:
             return "I do not understand that command."
 
