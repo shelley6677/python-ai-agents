@@ -1,0 +1,15 @@
+{
+    "name": "Vinay",
+    "topic": "AI Agents",
+    "minutes_per_day": 45,
+    "days_per_week": 5,
+    "weekly_minutes": 225,
+    "completed_lessons": [
+        "Variables",
+        "Conditions",
+        "Lists and loops",
+        "Functions",
+        "Dictionaries",
+        "Files and JSON"
+    ]
+}
