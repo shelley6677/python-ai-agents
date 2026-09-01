@@ -1,9 +1,9 @@
 {
-    "name": "Vinay",
-    "topic": "AI Agents",
+    "name": "Shelley",
+    "topic": "AI Coding",
     "minutes_per_day": 45,
-    "days_per_week": 5,
-    "weekly_minutes": 225,
+    "days_per_week": 4,
+    "weekly_minutes": 180,
     "completed_lessons": [
         "Variables",
         "Conditions",
