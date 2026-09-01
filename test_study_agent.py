@@ -50,7 +50,13 @@ class TestStudyAgent(unittest.TestCase):
             result,
             "Small, consistent progress leads to big results!"
         )
+    def test_goal_command(self):
+        result = self.agent.respond("goal")
 
+        self.assertEqual(
+            result,
+            "My goal is to help you practice Python consistently."
+        )
 
 if __name__ == "__main__":
     unittest.main()
